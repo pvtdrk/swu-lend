@@ -4,14 +4,14 @@
 
 **SWU Lend** is a lightweight, browser-based utility for Star Wars Unlimited players to track the lending and borrowing of cards. Instead of manual data entry, the app uses on-device OCR to scan the card's footer and automatically identify the card.
 
-
+## This is very much a work in progress so probably not stable for real world use on a large scale etc, use at your own risk all that kinda stuff
 
 ## ✨ Features
 
 ### 📸 Automated Card Scanning
 *   **On-Device OCR:** Uses **ONNX Runtime** and **PaddleOCR** to detect and read set codes and card numbers directly in your browser.
 *   **Smart Identification:** Cross-references scanned data with the `swu-db` API to automatically fetch card names, subtitles, and artwork.
-*   **Promo Support:** Specifically tuned to recognize both standard fraction-based numbers (e.g., `17/252`) and standalone promo numbers (e.g., `17`).
+*   **Promo Support:** Specifically tuned to recognize both standard fraction-based numbers (e.g., `17/252`) and standalone promo numbers (e.g., `17`). - I'm not sure this is actually working properly
 *   **Advanced Camera Controls:** Includes lens selection (to find the sharpest close-up lens), manual focus sliders, and torch control for low-light environments.
 
 ### 🔄 Loan Management
