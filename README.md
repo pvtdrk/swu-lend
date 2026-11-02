@@ -1,6 +1,6 @@
 # 🌌 SWU Lend
 
-`![App Screenshot](./screenshot.png)`
+![App Screenshot](./screenshot.png)
 
 **SWU Lend** is a lightweight, browser-based utility for Star Wars Unlimited players to track the lending and borrowing of cards. Instead of manual data entry, the app uses on-device OCR to scan the card's footer and automatically identify the card.
 
